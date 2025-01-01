@@ -1,6 +1,6 @@
 # RSS Reader
 
-An RSS Reader built using **Vue 3**, **TypeScript**, and **Vite**, styled with **TailwindCSS**, and running on the **Bun.sh** runtime for fast, modern web development.
+RSS Reader is a web application built with Vue.js, TypeScript, and Tailwind CSS that enables users to effortlessly follow and read RSS feeds from their favorite websites. The app integrates with a feed API to fetch and display content in a clean, user-friendly interface.
 
 ## Features
 

@@ -9,16 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "astro": "^5.8.0",
-    "vue": "^3.5.14"
+    "vue": "^3.5.30"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.1.7",
-    "@vitejs/plugin-vue": "^6.0.0",
-    "tailwindcss": "^4.1.7",
-    "typescript": "^5.8.3",
-    "vite": "^7.0.0",
-    "vue-tsc": "^3.0.0"
+    "@tailwindcss/vite": "^4.2.1",
+    "@vitejs/plugin-vue": "^6.0.4",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vue-tsc": "^3.2.5"
   }
 }

@@ -1,14 +1,22 @@
 # RSS Reader
 
-RSS Reader is a web application built with Vue.js, TypeScript, and Tailwind CSS that enables users to effortlessly follow and read RSS feeds from their favorite websites. The app integrates with a feed API to fetch and display content in a clean, user-friendly interface.
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Vue](https://img.shields.io/badge/Vue_3-35495E?logo=vuedotjs&logoColor=4FC08D&style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?logo=pnpm&logoColor=white&style=for-the-badge)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white&style=for-the-badge)
+
+A lightweight RSS Reader built with Vue 3, TypeScript, TailwindCSS, and Vite, designed to make following your favorite websites effortless. It integrates with a feed API to fetch and display RSS content in a clean, responsive interface.
 
 ## Features
 
-- Fetch and display RSS feeds from various sources.
-- Developed with **Vue 3 Composition API** and **TypeScript** for type-safe, maintainable code.
-- Styled with **TailwindCSS** for a utility-first, responsive design.
-- Powered by **Vite** for super-fast development and build times.
-- Utilizes **Bun.sh** for rapid JavaScript execution and bundling.
+- Fetch and display RSS feeds from any valid source.
+- Built with the Vue 3 Composition API for clarity and maintainability.
+- Fully typed with TypeScript.
+- Styled using TailwindCSS for fast, utility‑first UI development.
+- Powered by Vite for instant dev server startup and optimized builds.
+- Uses pnpm for fast, disk‑efficient dependency management.
 
 ## Getting Started
 
@@ -16,8 +24,8 @@ To set up and run this project locally, follow these steps:
 
 ### Prerequisites
 
-- [Bun.sh](https://bun.sh/) installed.
-- (Optional) Node.js, though **Bun.sh** handles most tasks.
+- pnpm installed
+- Node.js installed
 
 ### Installation
 
@@ -30,14 +38,14 @@ To set up and run this project locally, follow these steps:
 2. Install dependencies using Bun:
 
    ```bash
-   bun install
+   pnpm install
    ```
 
 ### Available Scripts
 
-- ``bun dev``: Start the development server.
-- ``bun build``: Create a production build.
-- ``bun preview``: Preview the production build.
+- ``pnpm dev``: Start the development server.
+- ``pnpm build``: Create a production build.
+- ``pnpm preview``: Preview the production build.
 
 ## Usage
 
@@ -47,11 +55,11 @@ To set up and run this project locally, follow these steps:
 
 ### Tech Stack
 
-- Vue 3: JavaScript framework for building user interfaces.
-- TypeScript: A statically typed superset of JavaScript.
-- Vite: Build tool that provides fast development and bundling.
-- Bun.sh: A high-speed JavaScript runtime.
-- TailwindCSS: Utility-first CSS framework for responsive design.
+- Vue 3 — UI framework
+- TypeScript — Static typing for safer code
+- Vite — Fast dev/build tooling
+- pnpm — Efficient package manager
+- TailwindCSS — Utility-first styling
 
 ### Contributing
 

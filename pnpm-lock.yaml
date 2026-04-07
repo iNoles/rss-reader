@@ -14,10 +14,10 @@ importers:
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.1
-        version: 4.2.2(vite@8.0.6(esbuild@0.27.3)(jiti@2.6.1))
+        version: 4.2.2(vite@8.0.7(esbuild@0.27.3)(jiti@2.6.1))
       '@vitejs/plugin-vue':
         specifier: ^6.0.4
-        version: 6.0.5(vite@8.0.6(esbuild@0.27.3)(jiti@2.6.1))(vue@3.5.32(typescript@6.0.2))
+        version: 6.0.5(vite@8.0.7(esbuild@0.27.3)(jiti@2.6.1))(vue@3.5.32(typescript@6.0.2))
       tailwindcss:
         specifier: ^4.2.1
         version: 4.2.2
@@ -26,7 +26,7 @@ importers:
         version: 6.0.2
       vite:
         specifier: ^8.0.5
-        version: 8.0.6(esbuild@0.27.3)(jiti@2.6.1)
+        version: 8.0.7(esbuild@0.27.3)(jiti@2.6.1)
       vue-tsc:
         specifier: ^3.2.5
         version: 3.2.6(typescript@6.0.2)
@@ -660,8 +660,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  vite@8.0.6:
-    resolution: {integrity: sha512-jeOXoY6N8rOfit/mZADMd0misLqjRdWBB3/S23ZQNuPcbVsfMBJutWD8b4ftdczMOsNyMBnKro0Z1Kt0HIqq5Q==}
+  vite@8.0.7:
+    resolution: {integrity: sha512-P1PbweD+2/udplnThz3btF4cf6AgPky7kk23RtHUkJIU5BIxwPprhRGmOAHs6FTI7UiGbTNrgNP6jSYD6JaRnw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -971,22 +971,22 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.2.2
       '@tailwindcss/oxide-win32-x64-msvc': 4.2.2
 
-  '@tailwindcss/vite@4.2.2(vite@8.0.6(esbuild@0.27.3)(jiti@2.6.1))':
+  '@tailwindcss/vite@4.2.2(vite@8.0.7(esbuild@0.27.3)(jiti@2.6.1))':
     dependencies:
       '@tailwindcss/node': 4.2.2
       '@tailwindcss/oxide': 4.2.2
       tailwindcss: 4.2.2
-      vite: 8.0.6(esbuild@0.27.3)(jiti@2.6.1)
+      vite: 8.0.7(esbuild@0.27.3)(jiti@2.6.1)
 
   '@tybys/wasm-util@0.10.1':
     dependencies:
       tslib: 2.8.1
     optional: true
 
-  '@vitejs/plugin-vue@6.0.5(vite@8.0.6(esbuild@0.27.3)(jiti@2.6.1))(vue@3.5.32(typescript@6.0.2))':
+  '@vitejs/plugin-vue@6.0.5(vite@8.0.7(esbuild@0.27.3)(jiti@2.6.1))(vue@3.5.32(typescript@6.0.2))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-rc.2
-      vite: 8.0.6(esbuild@0.27.3)(jiti@2.6.1)
+      vite: 8.0.7(esbuild@0.27.3)(jiti@2.6.1)
       vue: 3.5.32(typescript@6.0.2)
 
   '@volar/language-core@2.4.28':
@@ -1227,7 +1227,7 @@ snapshots:
 
   typescript@6.0.2: {}
 
-  vite@8.0.6(esbuild@0.27.3)(jiti@2.6.1):
+  vite@8.0.7(esbuild@0.27.3)(jiti@2.6.1):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
